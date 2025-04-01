@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AcadMate – Your Ultimate Academic Companion</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <style>
+            header {
+    background: linear-gradient(90deg, #4a90e2, #50b3e0);
+    padding: 20px;
+    color: white;
+    font-size: 1.5em;
+    animation: fadeIn 1.5s ease-in-out;
+}
+#subject-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 320px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.pdf-card .download-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.pdf-card .download-btn:hover {
+    background: #0056b3;
+}
+
+/* Typing Animation */
+.typing-animation {
+    display: inline-block;
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(40) infinite alternate;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+        </style>
+            
+        <header>
+            <h1 class="typing-animation">Welcome to AcadMate</h1>
+        </header>
+        
+    
+        <section class="subject-container fade-in">
+            <h2>📖 Select Your Subject</h2>
+            <div class="subject-grid">
+                <a href="subject.html?subject=M1" class="subject-card">M1</a>
+                <a href="subject.html?subject=M2" class="subject-card">M2</a>
+                <a href="subject.html?subject=PCC" class="subject-card">PCC (cse,it)</a>
+                <a href="subject.html?subject=PC" class="subject-card">PC</a>
+                <a href="subject.html?subject=EGD" class="subject-card">EGD</a>
+                <a href="subject.html?subject=Physics" class="subject-card">Physics</a>
+                <a href="subject.html?subject=Chemistry" class="subject-card">Chemistry</a>
+                <a href="subject.html?subject=biology" class="subject-card">Biology</a>
+                <a href="subject.html?subject=bee" class="subject-card">BEE</a>
+                <a href="subject.html?subject=pps" class="subject-card">PPS</a>
+                <a href="subject.html?subject=previous papers" class="subject-card">Previous  Papers</a>
+                <a href="subject.html?subject=pccc" class="subject-card">pcc(extc)</a>
+                <a href="subject.html?subject=short notes" class="subject-card">short notes</a>
+
+               <style>      .notes-link{
+                display: inline-block;
+                margin-top: 10px;
+                padding: 12px 18px;
+                background: linear-gradient(90deg, #007bff, #0056b3);
+                color: white;
+                text-decoration: none;
+                border-radius: 25px;
+                font-weight: bold;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s ease-in-out;
+                height: 60px;
+                width: 100px;
+                border-width: 2px;border-style: solid;border-color: #001f3f;border-radius: 10px
+            }    
+            </style> 
+                
+                
+            </div>
+        </section>
+    
+        <section class="intro fade-in">
+            <h2>📌 Why Choose AcadMate?</h2>
+            <p>We provide handpicked video lectures, notes, and PDFs for every student to learn faster and better.</p>
+            <ul>
+                <li>✅ Easy Subject Navigation</li>
+                <li>✅ Best Video Lectures</li>
+                <li>✅ Detailed Notes & PDFs</li>
+            </ul>
+            <p><strong>Start learning today and make your studies stress-free! 🎯</strong></p>
+        </section>
+        <section class="key-topics">
+            <h2>📌 Some Key Topics to Check</h2>
+            <div class="key-topic-grid">
+                <div class="topic-card">
+                    <h3>biology</h3>
+                    <p>mitosis,meisis,types of carbohydrates,plant cell,animal cell,what is peptide bond,structure of protien,amino acids,5kingdom classification,dna rna,nuclei acids,enzyme theory,mechanisms,application,genes,structure of genes,respiratory system,digestive system,activation energy ,enzyme classification,digestive system</p>
+                </div>
+                <div class="topic-card">
+                    <h3>physics</h3>
+                    <p> 
+                        Physics 
+Davission germer exp
+Gp thompson exp
+Photoelectric effect
+Michaelson's interferometer
+Newton's ring 
+Youngs double slit exp
+Rayleigh criteria, array disc
+Compton's effect and de broglie hypothesis
+Heisenberg's uncertainty principle
+Motion of particle in 1d box
+Eigen values, vectors, eigen functions
+Schrodinger's time independent and dependent wave eqnUnit 1 : Particle Nature of Waves 
+                        Planck's quantum theory of light, Explanation of laws of photoelectric emission in 
+                       terms of quantum nature of light. Compton effect again in terms of quantum nature of 
+                       waves.
+                        Unit 2 : Wave Nature of Particles 
+                        Unit 3 : Wave Optics 
+                        unit4.quantam mechanics</p>
+                </div>
+                <div class="topic-card">
+                    <h3>bee</h3>
+                    <p>
+                        Bee 
+1.kvl /kcl
+2.balanced unbalanced load
+3.energy meter 
+4.losses of transformer
+5.short circuit and open circuit test 
+6.lenz law,faraday's law,flemings rules
+7.ac fundamentals definations with wave diagram
+8.ammeter voltmeter
+9.electric circuit,magnetic circuit
+ unit1.elementary concepts
+                        unit 2.dc circuits
+                        unit 3.electromagnetism
+                        unit4.ac fundamentals
+                        unit5.transformers
+                        unit6.basic electrical measuring instruments
+                </div>
+                <div class="topic-card">
+                    <h3>M2</h3>
+                    <p>limits continity,partial derivatives,directional derivative,saddle points,max minima,lagrange'smultiplier,gradient ,curl,divergence
+                        multiple integral,double integral,change of order of integral,applications,scalar line integral,vector line integral
+                    </p>
+                </div>
+                <div class="topic-card">
+                    <h3>chemistry</h3>
+                    <p>1.analytical aspects of water 
+                        2.fundamentals
+                        3.petroleum and lubricants
+                        4.corrosion
+                        polymer
+                        6.advanced engineering material
+                </p>
+                        <br>
+                </div>
+               <div class="topic-card">
+                    <h3>egd</h3>
+                    <p>1.basics
+                        2.projection of point
+                        3.projection of line
+                        4.projection of planes
+                        5.projection of solids
+                        6.orthographic projection
+                        7.isometric projections
+                    </p>
+                </div>
+                <div class="topic-card"> 
+                    <h3> pc</h3>
+                    <p> 1. sentence structure
+                        2.parts of speech
+                        3.tenses
+                        4.voice
+                        5.reported speech
+                        6.phenotics
+                        7.paragraph writing
+                        8.spot the errors
+                        9.prepositions
+                        10,business correspondance
+                        11.report writing-types of reports
+                        12.formats and memo
+                        13. letter,
+                        14. precise writing</p>
+                </div>
+                <div class= " topic-card"> 
+                    <h3> pps</h3>
+                    <p>
+                        Pps
+Fabbonaci,palandrome, factorial using recursion, structure -employee , binary search,linear search,entry and exit level loops, armstrong,pattern questiond 1.introduction to programming
+                        2.arithmatic expressions and precedence
+                        3.arrays
+                        4.functions
+                        5.structure
+                        6.pointers
+                 </p>
+                </div>
+                <div class="topic-card"> 
+                    <h3> m1</h3>
+                    <p> rolle's theorem, Mean value theorems, Taylor's and Maclaurin theorems with 
+                        remainders; Indeterminate forms and L'Hospital's rule; Maxima and minima, Polar 
+                        Coordinates, polar curves, angle between the curves.2.matrices.Elementary row transformation of a matrix, Rank of a matrix. Consistency and 
+                        solution of a system of linear equations - Gauss-elimination method, Gauss-Jordan 
+                        method. Eigenvalues and Eigenvectors
+                        Unit 3 : Ordinary differential equations of higher orders  
+                        Second order linear differential equations, method of variation of parameters
+                        Definite integral,reimenn sum theorom,defination of definite integral,properties of definite integral,area between curve , defination of volume,
+ </p>
+                </div>
+            </div>
+        </section>
+    
+        <footer id="contact" class="slide-up">
+            <div class="footer-container">
+                 
+                    <p>We value your feedback! <a href="https://docs.google.com/forms/d/1Xt40YnEL1HVVS5pFzvugVhfeTqTmkLvwehua8OUQz3A/edit?chromeless=1" style="color: blue; font-weight: bold;">Click here</a> to fill out our feedback form.</p>
+                    <p>For any queries, contact us at <a href="mailto:acadmate450@gmail.com">acadmate450@gmail.com</a>
+                    <a href="mailto:ishankhemani06@gmail.com">ishankhemani06@gmail.com</a>
+                
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    </html>

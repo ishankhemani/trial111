@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Resources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    </head>
+    <body>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects - AcadMate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+            </div>
+        </div>
+    
+ <div for id="head" >  <header1>
+        <h1 id="subject-title"></h1>
+      <div for id="wow" > <a href="index.html">Back to Home</a></div>
+    </header1></div>
+
+    <main>
+        <div id="content"></div>
+    </main>
+
+    <script src="script.js"></script>
+    <section class="resources-grid">
+    <style>  
+       #head  {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: linear-gradient(90deg, #66ccff, #99e6ff); /* Light & Charming Blue */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 170, 255, 0.5); /* Soft Glow */
+  animation: headerGlow 4s infinite alternate ease-in-out;
+}
+
+@keyframes headGlow {
+  0% {
+    box-shadow: 0 4px 10px rgba(0, 170, 255, 0.5);
+    background: linear-gradient(90deg, #66ccff, #99e6ff);
+  }
+  100% {
+    box-shadow: 0 6px 15px rgba(0, 170, 255, 0.8);
+    background: linear-gradient(90deg, #99e6ff, #66ccff);
+  }
+}
+
+#head::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewX(-30deg);
+  animation: headerLightEffect 3s infinite linear;
+}
+
+@keyframes headerLightEffect {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #head {
+    font-size: 20px; /* Slightly smaller font for tablets */
+    padding: 15px 5px;
+    width: 768px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  #head {
+    font-size: 18px; /* Smaller font for mobile */
+    padding: 12px 5px;
+    width: 480px;
+  }
+}
+#wow{position: relative;top: 20px;right: 160px;margin-top: 60px;position: relative;}
+#wow {
+  display: inline-block;display: flex;
+  padding: 14px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff; /* White Text */
+  background: linear-gradient(135deg, #0077ff, #0044cc); /* Blue Gradient */
+  border: none;
+  border-radius: 50px; /* Fully Rounded Button */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 119, 255, 0.5); /* Soft Blue Glow */
+}
+
+/* Hover Effect - Lighter Blue with Stronger Glow */
+#wow:hover {
+  background: linear-gradient(135deg, #0044cc, #0099ff); /* Reverse Gradient */
+  box-shadow: 0 6px 20px rgba(0, 119, 255, 0.8); /* Stronger Glow */
+  transform: translateY(-3px);
+}
+
+/* Button Animation Effect */
+#wow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, rgba(0, 119, 255, 0.4) 10%, transparent 50%);
+  transition: all 0.4s ease-out;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+#wow:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Responsive Button for Small Screens */
+@media (max-width: 768px) {
+  #wow {
+    font-size: 16px;
+    padding: 12px 28px;
+    position: relative;left:130px;bottom: 10px;
+    width:100% ;
+    text-align: center;
+    
+  }
+}
+
+@media (max-width: 480px) {
+  #wow {
+    font-size: 14px;
+    padding: 10px 24px;
+    width: 100%;
+    text-align: center;
+  }
+}
+#wow {
+  display: inline-block;
+  padding: 14px 36px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0052cc; /* Deep Blue Text */
+  background: white; /* White Background */
+  border: 3px solid #0052cc; /* Blue Border */
+  border-radius: 30px; /* Attractive Curved Shape */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0, 82, 204, 0.3); /* Subtle Blue Glow */
+}
+
+/* Animated Blue Overlay */
+#wow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0052cc; /* Deep Blue */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect - Full Blue Background with White Text */
+#wow:hover::before {
+  transform: scaleX(1);
+}
+
+#wow:hover {
+  color: white;
+  box-shadow: 0 6px 20px rgba(0, 82, 204, 0.5); /* Stronger Glow */
+}
+
+/* Ensure Text Stays on Top of Animation */
+#wow span {
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive Button Adjustments */
+@media (max-width: 768px) {
+  #wow {
+    font-size: 16px;
+    padding: 12px 30px;
+    position: relative;left:130px;bottom: 10px;
+    width: 100% ;
+  }
+}
+
+@media (max-width: 480px) {
+  #wow {
+    font-size: 14px;
+    padding: 10px 26px;
+    width:100% ;
+  }
+}
+
+
+
+    </style>
+
+</body>
+</html>
