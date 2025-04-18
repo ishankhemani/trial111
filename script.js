@@ -40,7 +40,8 @@ const subjectData = {
         { title: "tenses", video: "https://www.youtube.com/embed/pXZtRXpGNck?si=_0dAhGCJbIhyfPkj", notes: "https://drive.google.com/file/d/1BgVonq5xFie5v1Vj-kVV9nU6OU4tUmN8/view?usp=drivesdk", pdf: "assets/pc_notes2.pdf" },
         { title: "active passive voice", video: "https://www.youtube.com/embed/pXZtRXpGNck?si=_0dAhGCJbIhyfPkj", notes: "https://drive.google.com/file/d/1BgVonq5xFie5v1Vj-kVV9nU6OU4tUmN8/view?usp=drivesdk", pdf: "assets/pc_notes1.pdf" },
         { title: "PHENOTICS", video: "https://www.youtube.com/embed/SOm7y1pwROg?si=s7SKHd9ygIpPgg_f", notes: "https://drive.google.com/file/d/1BgVonq5xFie5v1Vj-kVV9nU6OU4tUmN8/view?usp=drivesdk", pdf: "assets/pc_notes2.pdf" },
-        { title: "spot the errors", video: "https://www.youtube.com/embed/xFGUTzBlAP8?si=jPIOqHU5_0WNRcdh", notes: "https://drive.google.com/file/d/1BgVonq5xFie5v1Vj-kVV9nU6OU4tUmN8/view?usp=drivesdk" }
+        { title: "spot the errors", video: "https://www.youtube.com/embed/xFGUTzBlAP8?si=jPIOqHU5_0WNRcdh", notes: "https://drive.google.com/file/d/1BgVonq5xFie5v1Vj-kVV9nU6OU4tUmN8/view?usp=drivesdk" },
+        { title: "fourier",video"https://www.youtube.com/embed/ZcGlKaGgiXo?si=Mrzac0kEsb0LFo7e",notes"" }
 
     ],
     "EGD": [
@@ -50,7 +51,8 @@ const subjectData = {
         { title: "plane", video: "https://www.youtube.com/embed/ZU8sOh3FE2A?si=inOmFj1EkaqU1Pa4", notes: "https://drive.google.com/drive/folders/1EaArKHOn0YhMr7404f1E0Ilpv5It3O6J", pdf: "assets/egd_notes2.pdf" },
         { title: "orthogonal projection", video: "https://www.youtube.com/embed/No2BAd569CA?si=2trVR2G0RtDUCYbU", notes: "https://drive.google.com/drive/folders/1EaArKHOn0YhMr7404f1E0Ilpv5It3O6J", pdf: "assets/egd_notes2.pdf" },
         { title: "solids", video: "https://www.youtube.com/embed/v1GcwUSpxLg?si=ieL0sqcQ1FOPTmJl", notes: "https://drive.google.com/drive/folders/1EaArKHOn0YhMr7404f1E0Ilpv5It3O6J", pdf: "assets/egd_notes2.pdf" },
-        { title: "isometric projection", video: "https://www.youtube.com/embed/8j7l1OWhMlE?si=uXlPws1hexi3Picj", notes: "https/drive.google.com/drive/folders/1EaArKHOn0YhMr7404f1E0Ilpv5It3O6J" }
+        { title: "isometric projection", video: "https://www.youtube.com/embed/8j7l1OWhMlE?si=uXlPws1hexi3Picj", notes: "https/drive.google.com/drive/folders/1EaArKHOn0YhMr7404f1E0Ilpv5It3O6J" },
+        { title: "autocad",videp: "https://www.youtube.com/embed/VTSOBArFr4k?si=LUPvudZKjbEbOaIC",notes: "" }
     ],
 
     "Physics": [
