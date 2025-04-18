@@ -41,7 +41,7 @@ const subjectData = {
         { title: "active passive voice", video: "https://www.youtube.com/embed/pXZtRXpGNck?si=_0dAhGCJbIhyfPkj", notes: "https://drive.google.com/file/d/1BgVonq5xFie5v1Vj-kVV9nU6OU4tUmN8/view?usp=drivesdk", pdf: "assets/pc_notes1.pdf" },
         { title: "PHENOTICS", video: "https://www.youtube.com/embed/SOm7y1pwROg?si=s7SKHd9ygIpPgg_f", notes: "https://drive.google.com/file/d/1BgVonq5xFie5v1Vj-kVV9nU6OU4tUmN8/view?usp=drivesdk", pdf: "assets/pc_notes2.pdf" },
         { title: "spot the errors", video: "https://www.youtube.com/embed/xFGUTzBlAP8?si=jPIOqHU5_0WNRcdh", notes: "https://drive.google.com/file/d/1BgVonq5xFie5v1Vj-kVV9nU6OU4tUmN8/view?usp=drivesdk" },
-        { title: "fourier",video"https://www.youtube.com/embed/ZcGlKaGgiXo?si=Mrzac0kEsb0LFo7e",notes"" }
+        { title: "fourier",video"https://www.youtube.com/embed/ZcGlKaGgiXo?si=Mrzac0kEsb0LFo7e",notes:"" }
 
     ],
     "EGD": [
